@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+<body>     
+    <div class="login-box">
+        <h1 style="fo">Login</h1>
+        <div class="textbox">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Username">
+        </div>
+      
+        <div class="textbox">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Password">
+        </div>
+      
+        <input type="button" class="btn" value="Sign in">
+        <input type="button" class="btn" value="Cancel">
+    
+    <script>
+        $(window).on("load",function(){
+            $(".loader-container").fadeOut(1000);
+        });
+    </script>
+</body>
+</html>
